@@ -2,7 +2,6 @@
 title: terraformDocs
 author: thebadcc
 output: html_document
-github_repo: https://github.com/thebadcc/terraformDocs/
 ---
 
 You can turn parallel sections to tabs in `html_document` output.
