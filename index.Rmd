@@ -1,0 +1,6 @@
+---
+title: terraformDocs
+author: thebadcc
+output: html_document
+github_repo: https://github.com/thebadcc/terraformDocs/
+---
