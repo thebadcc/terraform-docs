@@ -11,10 +11,6 @@ edit:
   repo: https://github.com/thebadcc/terraform-docs/
 
 links:
-  - text: Mathcastles
-    link: https://mathcastles.xyz/
-    icon: home
-
   - text: Explorer
     link: https://terraformexplorer.xyz/
     icon: home
