@@ -1,9 +1,12 @@
 +++ Read
 
-==- name (string)
-This is a Panel. Expanded by default.
-==- symbol (string)
-This is a Panel. Expanded by default.
+# [name]()
+Token name. See {IERC721Metadata-name}.
+
+==- Resources
+```
+string private _name;
+```
 ===
 
 +++ Write
