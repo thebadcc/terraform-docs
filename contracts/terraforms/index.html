@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759349276086">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759354069770">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,7 +11,6 @@
     <!-- Primary Meta Tags -->
     <title>Terraforms</title>
     <meta name="title" content="Terraforms">
-    <meta name="description" content="0x4e1f41613c9084fdb9e34e11fae9412427480e56">
 
     <!-- Canonical -->
     <link rel="canonical" href="/contracts/terraforms/">
@@ -20,21 +19,19 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="/contracts/terraforms/">
     <meta property="og:title" content="Terraforms">
-    <meta property="og:description" content="0x4e1f41613c9084fdb9e34e11fae9412427480e56">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/contracts/terraforms/">
     <meta property="twitter:title" content="Terraforms">
-    <meta property="twitter:description" content="0x4e1f41613c9084fdb9e34e11fae9412427480e56">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.759349276086" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.759354069770" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759349276086" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759354069770" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759349276086" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759354069770" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -227,7 +224,6 @@
         <span>Terraforms</span>
     </h1>
 </doc-anchor-target>
-<p><a href="https://etherscan.io/token/0x4e1f41613c9084fdb9e34e11fae9412427480e56">0x4e1f41613c9084fdb9e34e11fae9412427480e56</a></p>
 <doc-tabs>
 <doc-tab v-cloak id="read">
 <template #title>Read</template>
@@ -237,6 +233,85 @@
 </doc-tab>
 <doc-tab v-cloak id="code">
 <template #title>Code</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<div class="codeblock-title">Ownable.sol</div>
+<pre class="language-none"><code v-pre class="language-none">// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts v4.4.0 (access/Ownable.sol)
+
+pragma solidity ^0.8.0;
+
+import &quot;../utils/Context.sol&quot;;
+
+/**
+ * @dev Contract module which provides a basic access control mechanism, where
+ * there is an account (an owner) that can be granted exclusive access to
+ * specific functions.
+ *
+ * By default, the owner account will be the one that deploys the contract. This
+ * can later be changed with {transferOwnership}.
+ *
+ * This module is used through inheritance. It will make available the modifier
+ * `onlyOwner`, which can be applied to your functions to restrict their use to
+ * the owner.
+ */
+abstract contract Ownable is Context {
+    address private _owner;
+
+    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
+
+    /**
+     * @dev Initializes the contract setting the deployer as the initial owner.
+     */
+    constructor() {
+        _transferOwnership(_msgSender());
+    }
+
+    /**
+     * @dev Returns the address of the current owner.
+     */
+    function owner() public view virtual returns (address) {
+        return _owner;
+    }
+
+    /**
+     * @dev Throws if called by any account other than the owner.
+     */
+    modifier onlyOwner() {
+        require(owner() == _msgSender(), &quot;Ownable: caller is not the owner&quot;);
+        _;
+    }
+
+    /**
+     * @dev Leaves the contract without owner. It will not be possible to call
+     * `onlyOwner` functions anymore. Can only be called by the current owner.
+     *
+     * NOTE: Renouncing ownership will leave the contract without an owner,
+     * thereby removing any functionality that is only available to the owner.
+     */
+    function renounceOwnership() public virtual onlyOwner {
+        _transferOwnership(address(0));
+    }
+
+    /**
+     * @dev Transfers ownership of the contract to a new account (`newOwner`).
+     * Can only be called by the current owner.
+     */
+    function transferOwnership(address newOwner) public virtual onlyOwner {
+        require(newOwner != address(0), &quot;Ownable: new owner is the zero address&quot;);
+        _transferOwnership(newOwner);
+    }
+
+    /**
+     * @dev Transfers ownership of the contract to a new account (`newOwner`).
+     * Internal function without access restriction.
+     */
+    function _transferOwnership(address newOwner) internal virtual {
+        address oldOwner = _owner;
+        _owner = newOwner;
+        emit OwnershipTransferred(oldOwner, newOwner);
+    }
+}</code></pre>
+</doc-codeblock></div>
 </doc-tab>
 </doc-tabs>
 
