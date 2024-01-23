@@ -5,6 +5,7 @@ url: docs.artblocks.io
 branding:
   title: Terraforms 
   label: Docs
+  logo: static/mathcastles_icon.gif
 
 edit:
   repo: https://github.com/thebadcc/terraform-docs/
