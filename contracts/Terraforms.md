@@ -1,7 +1,7 @@
-+++ Apple
++++ Read
 This is an apple 🍎
-+++ Orange
++++ Write
 This is an orange 🍊
-+++ Banana
++++ Code
 This is a banana 🍌
 +++
