@@ -183,15 +183,11 @@ against you.
 
 ********************************************************************************
 
-THE FOLLOWING LICENSE APPLIES TO THE FONTS USED IN THIS PROJECT
-
-Copyright 2018 The Noto Project Authors (github.com/googlei18n/noto-fonts)
-
-This Font Software is licensed under the SIL Open Font License,
-Version 1.1.
-
-This license is copied below, and is also available with a FAQ at:
-http://scripts.sil.org/OFL
+> [!NOTE]
+> THE FOLLOWING LICENSE APPLIES TO THE FONTS USED IN THIS PROJECT
+> Copyright 2018 The Noto Project Authors (github.com/googlei18n/noto-fonts)
+> This Font Software is licensed under the SIL Open Font License, Version 1.1.
+> This license is copied below, and is also available with a FAQ at https://openfontlicense.org/
 
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
