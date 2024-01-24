@@ -2,6 +2,9 @@
 ul#menu li {
   display:inline;
   margin-right: 5px;
+  
+}
+ul#menu {
   padding-left: 0 !important;
 }
 #terraforms h1 {
