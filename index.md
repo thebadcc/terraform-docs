@@ -1,3 +1,4 @@
 ---
 label: Welcome
+icon: home
 ---
