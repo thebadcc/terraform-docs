@@ -1,6 +1,11 @@
 <style>
 ul#menu li {
   display:inline;
+  margin-right: 5px;
+  padding-left: 0 !important;
+}
+#terraforms h1 {
+  margin-bottom: 0 !important;
 }
 </style>
 
