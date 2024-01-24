@@ -7,6 +7,7 @@ ul#menu li {
 :::
 <ul id="menu">
   <li><a href="https://remix.ethereum.org/#address=0x4e1f41613c9084fdb9e34e11fae9412427480e56&lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.22+commit.4fc1097e.js"><img src="https://repository-images.githubusercontent.com/59065830/b62be480-45d2-11ea-9989-803db0f9c44d" alt="remix" style="width:42px;height:42px;"></a></li>
+  <li><a href="https://etherscan.io/token/0x4e1f41613c9084fdb9e34e11fae9412427480e56#code"><img src="https://miro.medium.com/v2/resize:fit:350/0*E1IshKUJE53qtr9C.png" alt="remix" style="width:42px;height:42px;"></a></li>
 </ul> 
 :::
 
