@@ -10,5 +10,5 @@
     }
 </style>
 :::sample
-This text is wrapped in a Container component and has a custom css `class` applied.
+<iframe src="[https://example.com](https://enterdream.xyz/3d/index.html)" width="100%" height="100%"></iframe>
 :::
