@@ -10,5 +10,5 @@
     }
 </style>
 :::sample
-<iframe src="[https://example.com](https://enterdream.xyz/3d/index.html)" width="100%" height="100%"></iframe>
+<iframe src="https://enterdream.xyz/3d/index.html" width="100%" height="100%"></iframe>
 :::
