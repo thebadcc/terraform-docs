@@ -5,8 +5,8 @@
         border-radius: 10px;
         background-color: #E1EDFF;
         border: 1px solid #1956AF;
-        padding-top: 20px;
-        margin-bottom: 20px;
+        height: 100%;
+        width: 100%;
     }
 </style>
 :::sample
