@@ -21,82 +21,81 @@ ul#menu {
 :::
 
 +++ Read
-==-
-MAX_SUPPLY
-==-
-OWNER_ALLOTMENT
-==-
-PRICE
-==-
-REVEAL_TIMESTAMP
-==-
-SUPPLY
-==-
-TOKEN_SCALE
-==-
-balanceOf
-==-
-dreamers
-==-
-earlyMintActive
-==-
-getApproved
-==-
-isApprovedForAll
-==-
-mintingPaused
-==-
-name
-==-
-owner
-==-
-ownerOf
-==-
-seed
-==-
-structureData
-==-
-supportsInterface
-==-
-symbol
-==-
-terraformsAugmentationAddress
-==-
-tokenByIndex
-==-
-tokenCharacters
-==-
-tokenCounter
-==-
-tokenHTML
-==-
-tokenHeightmapIndicies
-==-
-tokenOfOwnerByIndex
-==-
-tokenSVG
-==-
-tokenSupplementalData
-==-
-tokenTerrainValues
-==-
-tokenToAuthorizedDreamer
-==-
-tokenToCanvasData
-==-
-tokenToDreamBlock
-==-
-tokenToDreamer
-==-
-tokenToPlacement
-==-
-tokenToStatus
-==-
-tokenURI
-==-
-tokenURIAddresses
-==-
-totalSupply
+==- MAX_SUPPLY
+===
+==- OWNER_ALLOTMENT
+===
+==- PRICE
+===
+==- REVEAL_TIMESTAMP
+===
+==- SUPPLY
+===
+==- TOKEN_SCALE
+===
+==- balanceOf
+===
+==- dreamers
+===
+==- earlyMintActive
+===
+==- getApproved
+===
+==- isApprovedForAll
+===
+==- mintingPaused
+===
+==- name
+===
+==- owner
+===
+==- ownerOf
+===
+==- seed
+===
+==- structureData
+===
+==- supportsInterface
+===
+==- symbol
+===
+==- terraformsAugmentationAddress
+===
+==- tokenByIndex
+===
+==- tokenCharacters
+===
+==- tokenCounter
+===
+==- tokenHTML
+===
+==- tokenHeightmapIndicies
+===
+==- tokenOfOwnerByIndex
+===
+==- tokenSVG
+===
+==- tokenSupplementalData
+===
+==- tokenTerrainValues
+===
+==- tokenToAuthorizedDreamer
+===
+==- tokenToCanvasData
+===
+==- tokenToDreamBlock
+===
+==- tokenToDreamer
+===
+==- tokenToPlacement
+===
+==- tokenToStatus
+===
+==- tokenURI
+===
+==- tokenURIAddresses
+===
+==- totalSupply
 ===
 +++ Write
 
