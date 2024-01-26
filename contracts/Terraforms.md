@@ -20,12 +20,6 @@ ul#menu {
 </ul> 
 :::
 
-
-```mermaid
-graph LR
-    A(terraforms) <-- B(terraformsData)
-```
-
 +++ Read
 ==- MAX_SUPPLY
 ==- OWNER_ALLOTMENT
