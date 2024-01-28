@@ -8,9 +8,6 @@ ul#menu li {
 ul#menu {
   padding-left: 0 !important;
 }
-#terraforms h1, p {
-  margin-bottom: 0 !important;
-}
 </style>
 
 :::
@@ -25,10 +22,12 @@ The Terraforms contract is a modified ERC721 standard token within Ethereum.
 
 +++ Read
 ==- MAX_SUPPLY (uint256)
-MAX_SUPPLY is a public variable declared immediately on contract creation. 
+MAX_SUPPLY is a public variable declared on contract creation.  
 ```js
-    uint public constant MAX_SUPPLY = 11_104;
-``` 
+uint public constant MAX_SUPPLY = 11_104;
+```
+Its value is 11,104 and constrains the total supply of terraforms which may be minted. Additionaly, the MAX_SUPPLY variable is utilized in generating sudo-random placements of terraform parcels.
+
 ==- OWNER_ALLOTMENT (uint256)
 ==- PRICE (uint256)
 ==- REVEAL_TIMESTAMP (uint256)
