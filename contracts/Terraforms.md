@@ -61,7 +61,28 @@ ul#menu {
 ==- totalSupply
 ===
 +++ Write
-
+==- addTokenURIAddress
+==- approve							
+==- authorizeDreamer
+==- commitDreamToCanvas
+==- earlyMint
+==- enterDream
+==- mint
+==- ownerClaim
+==- redeemMintpass
+==- renounceOwnership
+==- safeTransferFrom
+==- safeTransferFrom
+==- setApprovalForAll
+==- setMintpassHolders
+==- setSeed
+==- setTokenURIAddress
+==- toggleEarly
+==- togglePayse
+==- transferFrom
+==- transferOwnership
+==- withrdraw
+===
 +++ Code
 
 +++
