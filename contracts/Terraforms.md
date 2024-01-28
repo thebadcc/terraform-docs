@@ -42,15 +42,15 @@ ul#menu {
 ==- symbol (string)
 ==- terraformsAugmentationAddress (address)
 ==- tokenByIndex (uint256)
-==- tokenCharacters
-==- tokenCounter
-==- tokenHTML
-==- tokenHeightmapIndicies
-==- tokenOfOwnerByIndex
-==- tokenSVG
-==- tokenSupplementalData
-==- tokenTerrainValues
-==- tokenToAuthorizedDreamer
+==- tokenCharacters string[32][32]
+==- tokenCounter (uint256)
+==- tokenHTML (string)
+==- tokenHeightmapIndicies (uint256[32][32])
+==- tokenOfOwnerByIndex (uint256)
+==- tokenSVG (string)
+==- tokenSupplementalData (tuple)
+==- tokenTerrainValues (int256[32][32])
+==- tokenToAuthorizedDreamer (address)
 ==- tokenToCanvasData
 ==- tokenToDreamBlock
 ==- tokenToDreamer
