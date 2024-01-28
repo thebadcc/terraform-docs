@@ -20,6 +20,8 @@ ul#menu {
 </ul> 
 :::
 
+The Terraforms contract is a modified ERC721 standard token within Ethereum. 
+
 +++ Read
 ==- MAX_SUPPLY (uint256)
 ==- OWNER_ALLOTMENT (uint256)
