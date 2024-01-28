@@ -21,27 +21,27 @@ ul#menu {
 :::
 
 +++ Read
-==- MAX_SUPPLY
-==- OWNER_ALLOTMENT
-==- PRICE
-==- REVEAL_TIMESTAMP
-==- SUPPLY
-==- TOKEN_SCALE
-==- balanceOf
-==- dreamers
-==- earlyMintActive
-==- getApproved
-==- isApprovedForAll
-==- mintingPaused
-==- name
-==- owner
-==- ownerOf
-==- seed
-==- structureData
-==- supportsInterface
-==- symbol
-==- terraformsAugmentationAddress
-==- tokenByIndex
+==- MAX_SUPPLY (uint256)
+==- OWNER_ALLOTMENT (uint256)
+==- PRICE (uint256)
+==- REVEAL_TIMESTAMP (uint256)
+==- SUPPLY (uint256)
+==- TOKEN_SCALE (int256)
+==- balanceOf (uint256)
+==- dreamers (uint256)
+==- earlyMintActive (bool)
+==- getApproved (address)
+==- isApprovedForAll (bool)
+==- mintingPaused (bool)
+==- name (string)
+==- owner (address)
+==- ownerOf (address)
+==- seed (uint256)
+==- structureData (uint256)
+==- supportsInterface (bool)
+==- symbol (string)
+==- terraformsAugmentationAddress (address)
+==- tokenByIndex (uint256)
 ==- tokenCharacters
 ==- tokenCounter
 ==- tokenHTML
