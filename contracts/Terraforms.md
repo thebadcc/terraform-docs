@@ -8,7 +8,7 @@ ul#menu li {
 ul#menu {
   padding-left: 0 !important;
 }
-#terraforms h1 {
+#terraforms h1, p {
   margin-bottom: 0 !important;
 }
 </style>
