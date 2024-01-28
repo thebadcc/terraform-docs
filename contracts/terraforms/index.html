@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759733520526">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759733984930">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -30,12 +30,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.759733520526" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.759733984930" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759733520526" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759733984930" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759733520526" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.759733520526" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759733984930" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.759733984930" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -238,9 +238,6 @@ ul#menu li {
 ul#menu {
   padding-left: 0 !important;
 }
-#terraforms h1, p {
-  margin-bottom: 0 !important;
-}
 </style>
 <div><ul id="menu">
   <li><a href="https://remix.ethereum.org/#address=0x4e1f41613c9084fdb9e34e11fae9412427480e56&lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.22+commit.4fc1097e.js"><img src="https://repository-images.githubusercontent.com/59065830/b62be480-45d2-11ea-9989-803db0f9c44d" alt="remix" style="width:24px;height:24px;"></a></li>
@@ -254,10 +251,11 @@ ul#menu {
 <doc-panels>
    <doc-panel id="max-supply-uint256" collapsed>
        <template #title>MAX_SUPPLY (uint256)</template>
-<p>MAX_SUPPLY is a public variable declared immediately on contract creation.</p>
+<p>MAX_SUPPLY is a public variable declared on contract creation.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-javascript"><code v-pre class="language-javascript">    uint public constant MAX_SUPPLY = 11_104;</code></pre>
+<pre class="language-javascript"><code v-pre class="language-javascript">uint public constant MAX_SUPPLY = 11_104;</code></pre>
 </doc-codeblock></div>
+<p>Its value is 11,104 and constrains the total supply of terraforms which may be minted. Additionaly, the MAX_SUPPLY variable is utilized in generating sudo-random placements of terraform parcels.</p>
    </doc-panel>
    <doc-panel id="owner-allotment-uint256" collapsed>
        <template #title>OWNER_ALLOTMENT (uint256)</template>
