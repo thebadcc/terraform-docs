@@ -28,10 +28,7 @@ uint public constant MAX_SUPPLY = 11_104;
 ```
 ```mermaid
 graph LR
-    A[Hard edge] -->|Link text| B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
+    A[MAX_SUPPLY] --> B(Terraforms)
 ```
 Its value is 11,104 and constrains the total supply of terraforms which may be minted. Additionaly, the MAX_SUPPLY variable is utilized in generating sudo-random placements of terraform parcels.
 
