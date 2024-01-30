@@ -26,6 +26,13 @@ MAX_SUPPLY is a public variable declared on contract creation.
 ```js
 uint public constant MAX_SUPPLY = 11_104;
 ```
+```mermaid
+graph LR
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
 Its value is 11,104 and constrains the total supply of terraforms which may be minted. Additionaly, the MAX_SUPPLY variable is utilized in generating sudo-random placements of terraform parcels.
 
 ==- OWNER_ALLOTMENT (uint256)
