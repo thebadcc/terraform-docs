@@ -29,6 +29,10 @@ graph LR
     C --> G{perlinNoise}
     C --> H{terraformsZones}
     C --> I{terraformsChars}
+    D --> J{TFTokenURI v1}
+    D --> K{Helpers v1}
+    E --> L{TFTokenURI v2}
+    E --> M{Helpers v2}
 ```
 
 +++ Read
