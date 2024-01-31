@@ -26,14 +26,14 @@ graph LR
     A --> D{terraformsData v1}
     A --> E{terraformsData v2}
     C --> F{terraformsSVG}
-    C --> G{perlinNoise}
+    C --> G{terraformsChars}
     C --> H{terraformsZones}
-    C --> I{terraformsChars}
+    C --> I{perlinNoise}
     D --> J{TFTokenURI v1}
     D --> K{Helpers v1}
     E --> L{TFTokenURI v2}
     E --> M{Helpers v2}
-    F --> I
+    F --> G
 ```
 
 +++ Read
