@@ -35,6 +35,10 @@ graph TD
     E --> M{Helpers v2}
     F --> G
     L --> N{Beacon v2}
+    L --> C
+    L --> F
+    L --> A
+    L --> M
 ```
 
 +++ Read
