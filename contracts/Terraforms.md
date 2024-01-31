@@ -34,6 +34,7 @@ graph TD
     E --> L{TFTokenURI v2}
     E --> M{Helpers v2}
     F --> G
+    L --> N{Beacon v2}
 ```
 
 +++ Read
