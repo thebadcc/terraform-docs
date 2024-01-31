@@ -20,7 +20,7 @@ ul#menu {
 The Terraforms contract is a modified ERC721 standard token within Ethereum. 
 
 ```mermaid
-graph LR
+graph TD
     A{Terraforms} --> B{Augmentations}
     A --> C{terraformsData v0}
     A --> D{terraformsData v1}
