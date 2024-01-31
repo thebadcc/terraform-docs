@@ -26,9 +26,9 @@ graph LR
     A --> D{terraformsData v1}
     A --> E{terraformsData v2}
     C --> F{terraformsSVG}
-    C --> F{perlinNoise}
-    C --> F{terraformsZones}
-    C --> F{terraformsChars}
+    C --> G{perlinNoise}
+    C --> H{terraformsZones}
+    C --> I{terraformsChars}
 ```
 
 +++ Read
