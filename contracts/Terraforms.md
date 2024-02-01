@@ -18,7 +18,6 @@ ul#menu {
 :::
 
 ```mermaid
-%%{init: {'theme':'dark'}}%%
 graph TD
     A{Terraforms} --> B{Augmentations}
     A --> C{terraformsData v0}
