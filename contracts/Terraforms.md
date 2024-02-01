@@ -47,7 +47,12 @@ graph TD
     L --> A
     L --> M
     L --> F
-
+    K --> A
+    K --> C
+    K -- I
+    K --> O{Reverse Records}
+    M --> A
+    M --> C
 ```
 
 +++ Read
