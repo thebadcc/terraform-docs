@@ -8,6 +8,10 @@ ul#menu li {
 ul#menu {
   padding-left: 0 !important;
 }
+
+.py-4 {
+  background: none;
+}
 </style>
 
 :::
