@@ -50,9 +50,11 @@ graph TD
     K --> A
     K --> C
     K -- I
-    K --> A
+    K --> O{Reverse Records}
     M --> A
     M --> C
+    M --> I
+    M --> O
 ```
 
 +++ Read
