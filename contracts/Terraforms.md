@@ -10,7 +10,7 @@ ul#menu {
 }
 
 .py-4 {
-  background: none;
+  background: none !important;
 }
 </style>
 
