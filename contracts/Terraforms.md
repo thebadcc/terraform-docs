@@ -61,18 +61,10 @@ graph TD
 
 +++ Read
 ==- MAX_SUPPLY (uint256)
-MAX_SUPPLY is a public variable with the value 11,104 and is declared on contract creation. The variable constrains the total supply of terraforms which may be minted and is utilized in generating sudo-random placements of terraform parcels.
 ```mermaid
 graph LR
-    A[MAX_SUPPLY] --> B(Terraforms)
+    A(MAX_SUPPLY) --> B{Terraforms}
 ```
-```js
-uint public constant MAX_SUPPLY = 11_104;
-```
-
-
-uint[MAX_SUPPLY] placementShuffler;
-
 ==- OWNER_ALLOTMENT (uint256)
 ==- PRICE (uint256)
 ==- REVEAL_TIMESTAMP (uint256)
