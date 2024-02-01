@@ -16,7 +16,7 @@ ul#menu {
     <li><a href="https://vscode.blockscan.com/ethereum/0x4E1f41613c9084FdB9E34E11fAE9412427480e56"><img src="https://uploads-ssl.webflow.com/603902f1b6e52127e3b427f7/614c39750de5fc3680893ad0_RoundedIcon.png" alt="remix" style="width:24px;height:24px;"></a></li>
 </ul> 
 :::
-
+%%{init: {'theme':'dark'}}%%
 ```mermaid
 graph TD
     A{Terraforms} --> B{Augmentations}
