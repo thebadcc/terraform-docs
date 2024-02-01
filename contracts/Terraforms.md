@@ -38,6 +38,9 @@ graph TD
     D --> A
     D --> I
     D --> C
+    E --> A
+    E --> I
+    E --> C
 ```
 
 +++ Read
