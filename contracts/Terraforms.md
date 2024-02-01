@@ -22,9 +22,9 @@ ul#menu {
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#BB2528',
-      'primaryTextColor': '#fff',
-      'primaryBorderColor': '#7C0000',
+      'primaryColor': '#e1edff',
+      'primaryTextColor': '#1f7aff',
+      'primaryBorderColor': '#1f7aff',
       'lineColor': '#1f7aff',
       'secondaryColor': '#006100',
       'tertiaryColor': '#fff'
