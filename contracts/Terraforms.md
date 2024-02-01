@@ -23,10 +23,10 @@ graph TD
     A --> C{terraformsData v0}
     A --> D{terraformsData v1}
     A --> E{terraformsData v2}
-    C --> F{terraformsSVG}
-    C --> G{terraformsChars}
-    C --> H{terraformsZones}
-    C --> I{perlinNoise}
+    C --> F{terraformsSVG X}
+    C --> G{terraformsChars X}
+    C --> H{terraformsZones X}
+    C --> I{perlinNoise X}
     D --> J{TFTokenURI v1}
     D --> K{Helpers v1}
     E --> L{TFTokenURI v2}
