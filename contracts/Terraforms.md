@@ -49,7 +49,7 @@ graph TD
     L --> F
     K --> A
     K --> C
-    K -- I
+    K --> I
     K --> O{Reverse Records}
     M --> A
     M --> C
