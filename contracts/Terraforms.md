@@ -36,8 +36,6 @@ graph TD
     F --> G
     L --> N{Beacon v2}
     D --> A
-    D --> K
-    D --> J
     D --> I
     D --> C
 ```
