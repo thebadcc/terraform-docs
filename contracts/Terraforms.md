@@ -50,7 +50,7 @@ graph TD
     K --> A
     K --> C
     K -- I
-    K --> O{Reverse Records}
+    K --> A
     M --> A
     M --> C
 ```
