@@ -32,7 +32,7 @@ graph TD
     E --> L{TFTokenURI v2}
     E --> M{Helpers v2}
     F --> G
-    L --> N{Beacon v2}
+    L --> N{Beacon v2 x}
     D --> A
     D --> I
     D --> C
@@ -50,11 +50,13 @@ graph TD
     K --> A
     K --> C
     K --> I
-    K --> O{Reverse Records}
+    K --> O{Reverse Records x}
     M --> A
     M --> C
     M --> I
     M --> O
+    N --> G
+    N --> A
 ```
 
 +++ Read
