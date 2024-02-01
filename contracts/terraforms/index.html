@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760121269520">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760122238306">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -30,12 +30,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.760121269520" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.760122238306" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760121269520" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760122238306" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760121269520" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.760121269520" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760122238306" data-turbo-eval="false" defer></script>
     <script id="mermaid-js" data-cfasync="false" src="../../resources/js/mermaid.js?v=3.5.0" defer></script>
 </head>
 <body>
@@ -290,13 +289,8 @@ ul#menu {
 <doc-panels>
    <doc-panel id="max-supply-uint256" collapsed>
        <template #title>MAX_SUPPLY (uint256)</template>
-<p>MAX_SUPPLY is a public variable with the value 11,104 and is declared on contract creation. The variable constrains the total supply of terraforms which may be minted and is utilized in generating sudo-random placements of terraform parcels.</p>
 <div class="overflow-hidden mb-6 py-4 dark:px-5 dark:bg-white rounded-md"><pre class="mermaid w-full">graph LR
-    A[MAX_SUPPLY] --&gt; B(Terraforms)</pre></div>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-javascript"><code v-pre class="language-javascript">uint public constant MAX_SUPPLY = 11_104;</code></pre>
-</doc-codeblock></div>
-<p>uint[MAX_SUPPLY] placementShuffler;</p>
+    A(MAX_SUPPLY) --&gt; B{Terraforms}</pre></div>
    </doc-panel>
    <doc-panel id="owner-allotment-uint256" collapsed>
        <template #title>OWNER_ALLOTMENT (uint256)</template>
@@ -555,6 +549,6 @@ ul#menu {
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Terraforms", level: 2, icon: "file", hasPrism: true, hasMermaid: true, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Terraforms", level: 2, icon: "file", hasPrism: false, hasMermaid: true, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
