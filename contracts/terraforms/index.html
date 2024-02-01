@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760127159522">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760128763059">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -30,12 +30,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.760127159522" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.760128763059" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760127159522" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760128763059" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760127159522" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.760127159522" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760128763059" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.760128763059" defer></script>
     <script id="mermaid-js" data-cfasync="false" src="../../resources/js/mermaid.js?v=3.5.0" defer></script>
 </head>
 <body>
@@ -493,9 +493,11 @@ graph TD
 </doc-tab>
 <doc-tab v-cloak id="code">
 <template #title>Code</template>
+<doc-panels>
+   <doc-panel id="file-1-of-18-ownable-sol">
+       <template #title>File 1 of 18 : Ownable.sol</template>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-javascript"><code v-pre class="language-javascript">// File 1 of 18 : Ownable.sol
-// SPDX-License-Identifier: MIT
+<pre class="language-javascript"><code v-pre class="language-javascript">// SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.0 (access/Ownable.sol)
 
 pragma solidity ^0.8.0;
@@ -571,8 +573,8 @@ abstract contract Ownable is Context {
         emit OwnershipTransferred(oldOwner, newOwner);
     }
 }
-
-File 2 of 18 : ReentrancyGuard.sol
+```js
+=== File 2 of 18 : ReentrancyGuard.sol
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.0 (security/ReentrancyGuard.sol)
 
@@ -636,8 +638,8 @@ abstract contract ReentrancyGuard {
         _status = _NOT_ENTERED;
     }
 }
-
-File 3 of 18 : ERC721.sol
+```js
+=== File 3 of 18 : ERC721.sol
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.0 (token/ERC721/ERC721.sol)
 
@@ -1061,10 +1063,13 @@ contract ERC721 is Context, ERC165, IERC721, IERC721Metadata {
         address to,
         uint256 tokenId
     ) internal virtual {}
-}
-
-File 4 of 18 : IERC721.sol
-// SPDX-License-Identifier: MIT
+}</code></pre>
+</doc-codeblock></div>
+   </doc-panel>
+   <doc-panel id="file-4-of-18-ierc721-sol">
+       <template #title>File 4 of 18 : IERC721.sol</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-javascript"><code v-pre class="language-javascript">// SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.0 (token/ERC721/IERC721.sol)
 
 pragma solidity ^0.8.0;
@@ -1208,6 +1213,8 @@ interface IERC721 is IERC165 {
     ) external;
 }</code></pre>
 </doc-codeblock></div>
+   </doc-panel>
+</doc-panels>
 </doc-tab>
 </doc-tabs>
 
