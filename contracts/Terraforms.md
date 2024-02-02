@@ -12,6 +12,9 @@ ul#menu {
 .py-4 {
   background: none !important;
 }
+#terraforms h1 {
+ margin-bottom: 0 !important;
+}
 </style>
 
 :::
