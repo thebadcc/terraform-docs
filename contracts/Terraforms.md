@@ -22,7 +22,7 @@ ul#menu {
 :::
 <div id='address'><a href="https://etherscan.io/token/0x4E1f41613c9084FdB9E34E11fAE9412427480e56#code">0x4E1f41613c9084FdB9E34E11fAE9412427480e56</a></div>
 <ul id="menu">
-  <li><a href="https://remix.ethereum.org/#address=0x4e1f41613c9084fdb9e34e11fae9412427480e56&lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.22+commit.4fc1097e.js"><img src="../../static/remix_logo.png" alt="remix" style="width:24px;height:24px;"></a></li>
+  <li><a href="https://remix.ethereum.org/#address=0x4e1f41613c9084fdb9e34e11fae9412427480e56&lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.22+commit.4fc1097e.js"><img src="https://github.com/thebadcc/terraform-docs/blob/main/static/remix_icon.png?raw=true" alt="remix" style="width:24px;height:24px;"></a></li>
     <li><a href="https://vscode.blockscan.com/ethereum/0x4E1f41613c9084FdB9E34E11fAE9412427480e56"><img src="../../static/blockscan_logo.png" alt="blockscan" style="width:24px;height:24px;"></a></li>
 </ul> 
 :::
