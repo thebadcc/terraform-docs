@@ -144,6 +144,8 @@ graph LR
 ==- withrdraw
 ===
 +++ Code
+1. the resource address is 0x000000. Interesting this function has never been used.
+2. augmentations may have been depricated via satalites. a vestigal arm.
 === File 1 of 18 : Ownable.sol
 ```js
 // SPDX-License-Identifier: MIT
