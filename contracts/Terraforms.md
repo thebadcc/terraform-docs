@@ -140,8 +140,6 @@ graph TD
 ==- withrdraw
 ===
 +++ Code
-1. the resource address is 0x000000. Interesting this function has never been used.
-2. augmentations may have been depricated via satalites. a vestigal arm.
 === File 1 of 18 : Ownable.sol
 ```js
 // SPDX-License-Identifier: MIT
@@ -152,16 +150,12 @@ pragma solidity ^0.8.0;
 import "../utils/Context.sol";
 
 /**
- * @dev Contract module which provides a basic access control mechanism, where
- * there is an account (an owner) that can be granted exclusive access to
- * specific functions.
- *
- * By default, the owner account will be the one that deploys the contract. This
- * can later be changed with {transferOwnership}.
- *
- * This module is used through inheritance. It will make available the modifier
- * `onlyOwner`, which can be applied to your functions to restrict their use to
- * the owner.
+This is a piece of code that creates a system for controlling access to certain functions within a contract.
+The system works by having an "owner" account that has special privileges and exclusive access to particular functions.
+By default, when the contract is deployed, the account deploying it becomes the owner.
+This ownership can be transferred to another account using the function transferOwnership.
+To use this system, you inherit from this contract module in your own contracts.
+Once inherited, you can use the onlyOwner modifier provided by this module to restrict the use of certain functions solely to the owner account.
  */
 abstract contract Ownable is Context {
     address private _owner;
