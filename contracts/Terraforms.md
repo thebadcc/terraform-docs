@@ -78,10 +78,6 @@ graph TD
 
 +++ Read
 ==- MAX_SUPPLY (uint256)
-```mermaid
-graph LR
-    A(MAX_SUPPLY) --> B{Terraforms}
-```
 ==- OWNER_ALLOTMENT (uint256)
 ==- PRICE (uint256)
 ==- REVEAL_TIMESTAMP (uint256)
