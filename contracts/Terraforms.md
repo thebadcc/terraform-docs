@@ -147,6 +147,12 @@ graph TD
 ===
 +++ Code
 === File 1 of 18 : Ownable.sol
+This is a piece of code that creates a system for controlling access to certain functions within a contract.
+The system works by having an "owner" account that has special privileges and exclusive access to particular functions.
+By default, when the contract is deployed, the account deploying it becomes the owner.
+This ownership can be transferred to another account using the function transferOwnership.
+To use this system, you inherit from this contract module in your own contracts.
+Once inherited, you can use the onlyOwner modifier provided by this module to restrict the use of certain functions solely to the owner account.
 ```js
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.0 (access/Ownable.sol)
@@ -220,8 +226,8 @@ abstract contract Ownable is Context {
         emit OwnershipTransferred(oldOwner, newOwner);
     }
 }
-```js
 === File 2 of 18 : ReentrancyGuard.sol
+```js
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.0 (security/ReentrancyGuard.sol)
 
@@ -285,8 +291,8 @@ abstract contract ReentrancyGuard {
         _status = _NOT_ENTERED;
     }
 }
-```js
 === File 3 of 18 : ERC721.sol
+```js
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.0 (token/ERC721/ERC721.sol)
 
