@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760407912047">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.760481660888">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Terraforms</title>
     <meta name="title" content="Terraforms">
+    <meta name="description" content="This Solidity contract defines an Ownable module, enabling exclusive access to specific functions by an owner.">
 
     <!-- Canonical -->
     <link rel="canonical" href="/contracts/terraforms/">
@@ -19,20 +20,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="/contracts/terraforms/">
     <meta property="og:title" content="Terraforms">
+    <meta property="og:description" content="This Solidity contract defines an Ownable module, enabling exclusive access to specific functions by an owner.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/contracts/terraforms/">
     <meta property="twitter:title" content="Terraforms">
+    <meta property="twitter:description" content="This Solidity contract defines an Ownable module, enabling exclusive access to specific functions by an owner.">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.760407912047" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.760481660888" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760407912047" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.760481660888" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760407912047" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.760407912047" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.760481660888" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.760481660888" defer></script>
     <script id="mermaid-js" data-cfasync="false" src="../../resources/js/mermaid.js?v=3.5.0" defer></script>
 </head>
 <body>
@@ -497,6 +500,7 @@ graph TD
 <doc-panels>
    <doc-panel id="file-1-of-18-ownable-sol">
        <template #title>File 1 of 18 : Ownable.sol</template>
+<p>This Solidity contract defines an Ownable module, enabling exclusive access to specific functions by an owner. It provides methods for transferring ownership and restricting access to certain functions based on the owner&#x27;s address. The default owner is set to the deployer of the contract, and ownership can be transferred or renounced only by the current owner.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-javascript"><code v-pre class="language-javascript">// SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.0 (access/Ownable.sol)
