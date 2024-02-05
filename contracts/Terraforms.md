@@ -147,6 +147,7 @@ graph TD
 ===
 +++ Code
 === File 1 of 18 : Ownable.sol
+This Solidity contract defines an Ownable module, enabling exclusive access to specific functions by an owner. It provides methods for transferring ownership and restricting access to certain functions based on the owner's address. The default owner is set to the deployer of the contract, and ownership can be transferred or renounced only by the current owner.
 ```js
 // SPDX-License-Identifier: MIT
 // OpenZeppelin Contracts v4.4.0 (access/Ownable.sol)
